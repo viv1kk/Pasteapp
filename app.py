@@ -110,4 +110,5 @@ def logout():
 
 if __name__ == '__main__':
     # Run the app with HTTPS enabled using a self-signed certificate
-    app.run(debug=True, host='0.0.0.0', port=5000, ssl_context=('cert.pem', 'key.pem'))
+    # app.run(debug=True, host='0.0.0.0', port=5000, ssl_context=('cert.pem', 'key.pem'))
+    app.run()
